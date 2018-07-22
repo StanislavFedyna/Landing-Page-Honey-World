@@ -1,140 +1,157 @@
 /* Specification */
 
-body {
-  padding: 0;
-  margin: 0;
-  background-color: #161616;
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
 }
 
 /* Beginning main background section */
 
-.img__main {
-  height: 78%;
-  width: 85%;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.img__main
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 85%;
+    height: 78%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
 }
 
-.logo {
-  position: absolute;
-  top: 6%;
-  left: 55%;
-  transform: translate(-50%, -50%);
+.logo
+{
+    position: absolute;
+    top: 6%;
+    left: 55%;
+    transform: translate(-50%, -50%);
 }
 
-.logo img {
-  width: 50%;
+.logo img
+{
+    width: 50%;
 }
 
 /* End of main background section */
 
 /* Beginning navigation section (left) */
 
-nav {
-  position: absolute;
-  top: 50%;
-  left: 4%;
-  display: inline-block;
-  transform: translate(-50%, -50%) rotate(-90deg);
+nav
+{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    display: inline-block;
+    transform: translate(-50%, -50%) rotate(-90deg);
 }
 
-nav li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+nav li
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-nav ul li {
-  font-family: arial black;
-  font-size: 16px;
-  color: #fff;
-  display: inline-block;
-  margin: 0 20px;
-  cursor: pointer;
+nav ul li
+{
+    font-family: arial black;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    color: #fff;
 }
 
-nav ul li:hover {
-  color: #F78763;
-  transition: .5s;
+nav ul li:hover
+{
+    transition: .5s;
+    color: #f78763;
 }
 
 /* End of  navigation section (left) */
 
-.social__media {
-  position: absolute;
-  top: 50%;
-  right: 3.5%;
-  transform: translateY(-50%);
+.social__media
+{
+    position: absolute;
+    top: 50%;
+    right: 3.5%;
+    transform: translateY(-50%);
 }
 
-.social__media ul img {
-  width: 36px;
-  height: 36px;
+.social__media ul img
+{
+    width: 36px;
+    height: 36px;
 }
 
-.social__media ul img:hover {
-  background-color:#F78763;
-  transition: .5s;
+.social__media ul img:hover
+{
+    transition: .5s;
+    background-color: #f78763;
 }
 
-.social__media ul {
-  list-style: none;
-  padding: 0px;
-  margin: 0;
+.social__media ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.social__media li {
-  margin: 20px 0px;
-  cursor: pointer;
+.social__media li
+{
+    margin: 20px 0;
+    cursor: pointer;
 }
 
 /* End of social-media section (right) */
 
 /* Beginning info section (slogon) */
 
-.info {
-  width: 26%;
-  font-family: arial;
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-  position: absolute;
-  bottom: 3%;
-  left: 50%;
-  transform: translateX(-50%);
-  letter-spacing: 8px;
+.info
+{
+    font-family: arial;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    width: 26%;
+    transform: translateX(-50%);
+    text-align: center;
+    letter-spacing: 8px;
+    color: #fff;
 }
 
-.info span {
-  color: #f87060;
-  font-size: 25px;
+.info span
+{
+    font-size: 25px;
+    color: #f87060;
 }
 
 /* End of slogon section */
 
 /* btn */
 
-.btn {
-  height: 35px;
-  width: 150px;
-  background: #f87060;
-  font-family: arial;
-  font-size: 15px;
-  color: white;
-  text-align: center;
-  line-height: 35px;
-  border-radius: 20px;
-  position: absolute;
-  bottom: 15%;
-  left: 50%;
-  transform: translateX(-50%);
-  cursor: pointer;
+.btn
+{
+    font-family: arial;
+    font-size: 15px;
+    line-height: 35px;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background: #f87060;
 }
 
-.btn:hover {
-  background-color: #f7595a;
-  transition: .5s ease;
+.btn:hover
+{
+    transition: .5s ease;
+    background-color: #f7595a;
 }
